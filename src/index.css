@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(40, 206, 137);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  color: rgb(61, 90, 116);
+  opacity: 50%;
+  font-size: 50px;
+  -webkit-text-stroke: 1px black;
+  text-shadow: 2px 2px #5f5151;
+  text-align: center;
+}
+
+button {
+  color: rgb(49, 49, 21);
+  background-color: cadetblue;
+  box-Shadow: 5px 5px 15px;
+  border-Radius: 50;
+  margin: 50px;
+  cursor: pointer;
+  outline: coral;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+input[type=text] {
+  border: 2px solid rgb(75, 14, 49);
+  border-radius: 4px;
+  background-color: rgb(187, 233, 235);
+  margin: 20px;
+  box-shadow: rgb(210, 210, 231) 5px 5px 15px;
+  
+}
+
+input[type=date] {
+  border: 2px solid rgb(75, 14, 49);
+  border-radius: 4px;
+  background-color: rgb(187, 233, 235);
+  box-shadow: rgb(210, 210, 231) 5px 5px 15px;
+}
+
+input[type=file] {
+  border: 2px solid rgb(75, 14, 49);
+  border-radius: 4px;
+  margin: 5px;
+  background-color: rgb(187, 233, 235);
+  box-shadow: rgb(210, 210, 231) 5px 5px 15px;
+}
+
+textarea {
+  width: 60%;
+  opacity: 60%;
+  height: 150px;
+  padding: 12px 20px;
+  margin: 20px;
+  box-sizing: border-box;
+  border: 2px solid rgb(75, 14, 49);
+  border-radius: 4px;
+  background-color: rgb(187, 233, 235);
+  box-shadow: rgb(210, 210, 231) 5px 5px 15px;
+  resize: none;
+}
+
+.containerTwo {
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(rgb(168, 213, 226), rgb(16, 54, 90)); /* Standard syntax (must be last) */
+  border: 2px solid rgb(75, 14, 49);
+  border-radius: 4px;
+  margin: auto;
+  padding: 15px;
+  width: 75%;
+  resize: vertical;
+  overflow: auto;
+}
+
+.containerThree {
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(rgb(226, 217, 168), rgb(243, 242, 211)); /* Standard syntax (must be last) */
+  border: 2px solid rgb(151, 149, 150);
+  border-radius: 25px;
+  margin: auto;
+  padding: 25px;
+  width: 75%;
+  resize: vertical;
+  overflow: auto;
+}
